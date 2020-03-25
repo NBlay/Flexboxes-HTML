@@ -1,0 +1,28 @@
+.grey th{
+  background-color: grey ;
+  border: 2px black solid ;
+}
+.purple td{
+  background-color: purple ;
+  border: 2px black solid ;
+}
+.yellow td{
+  background-color: yellow ;
+  border: 2px black solid ;
+}
+.orange td{
+  background-color: orange ;
+  border: 2px black solid ;
+}
+.blue td{
+  background-color: blue ;
+  border: 2px black solid ;
+}
+.pink td{
+  background-color: pink ;
+  border: 2px black solid ;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
