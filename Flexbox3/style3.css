@@ -1,0 +1,19 @@
+h1{
+  font-weight: bold;
+  width: auto;
+}
+nav{
+  background-color: black;
+}
+li{
+  color: white;
+  list-style: none;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.un{
+  padding-left: 0;
+}
