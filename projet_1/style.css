@@ -1,0 +1,49 @@
+.bordure{
+    border: 2px solid red;
+    height: auto;
+    width: auto;
+}
+.conteneur1{
+    background-color: grey;
+    height: auto;
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.logo{
+  filter: grayscale(100%);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+.conteneur2{
+    background-color: yellow;
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
+.Pingoo{
+  text-align: center;
+}
+.h3{
+  text-align: left;
+  font-weight: bold;
+}
+.Contacts{
+  text-align: left;
+}
+.Logiciel{
+  display: inline-block;
+  width: 100px;
+}
+.Languages{
+  display:inline-block;
+  width: 100px;
+}
+div > i{
+  padding-left: 10px;
+}
+body{
+  color: white;
+}
