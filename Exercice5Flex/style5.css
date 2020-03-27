@@ -1,6 +1,6 @@
 h1{
   background-color: blue;
-  width: 250px;
+  width: 414px;
   margin:0;
   height: 90px;
 }
@@ -42,4 +42,5 @@ p{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 410px;
 }
