@@ -1,0 +1,45 @@
+h1{
+  background-color: blue;
+  width: 250px;
+  margin:0;
+  height: 90px;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+section{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 2px solid black;
+}
+ul{
+  background-color: purple;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  border: 2px solid black;
+}
+aside{
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
+  justify-content: space-between;
+}
+h2{
+  margin:0;
+  background-color: pink;
+  text-align: center;
+}
+p{
+  background-color: pink;
+  margin: 0;
+  width: 350px;
+}
+.Head{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
