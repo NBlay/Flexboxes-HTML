@@ -5,10 +5,17 @@
 }
 .conteneur1{
     background-color: grey;
-    height: auto;
+    height: 925px;
     width: auto;
     display: inline-block;
     vertical-align: top;
+}
+.conteneur2{
+    background-color: grey;
+    height: auto;
+    width: auto;
+    display: inline-block;
+    font-family: Roboto;
 }
 .logo{
   filter: grayscale(100%);
@@ -17,18 +24,13 @@
   border-radius: 50%;
   border: 10px solid white;
 }
-.conteneur2{
-    background-color: yellow;
-    height: auto;
-    width: auto;
-    display: inline-block;
-}
 .Pingoo{
   text-align: center;
 }
 .h3{
   text-align: left;
   font-weight: bold;
+  padding-left: 10px;
 }
 .Contacts{
   text-align: left;
@@ -46,4 +48,29 @@ div > i{
 }
 body{
   color: white;
+}
+.Prenom{
+  color: black;
+}
+.Surname{
+  color: #77b5fe;
+}
+h4{
+  color: #77b5fe
+}
+h2{
+  font-size: bold;
+  color: black;
+}
+h3{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.corps{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
 }
