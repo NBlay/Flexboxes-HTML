@@ -1,18 +1,21 @@
 h1{
   font-weight: bold;
-  color: black;
   width: auto;
 }
 nav{
   background-color: black;
-  height: 30px;
+}
+li{
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
 }
 ul{
-  color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+}
+.un{
+  padding-left: 0;
 }

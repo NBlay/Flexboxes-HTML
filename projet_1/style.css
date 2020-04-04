@@ -4,14 +4,18 @@
     width: auto;
 }
 .conteneur1{
-    background-color: grey;
-    height: 925px;
+    background-color: #17202a;
+    height: auto;
     width: auto;
     display: inline-block;
     vertical-align: top;
+    font-family: Roboto;
+    text-align: justify;
+    color: white;
+    padding-left: 5px;
 }
 .conteneur2{
-    background-color: grey;
+    background-color:  	#F5F5F5;
     height: auto;
     width: auto;
     display: inline-block;
@@ -26,6 +30,7 @@
 }
 .Pingoo{
   text-align: center;
+  margin-top: 20px;
 }
 .h3{
   text-align: left;
@@ -34,6 +39,8 @@
 }
 .Contacts{
   text-align: left;
+  padding-right: 10px;
+  font-size: bold;
 }
 .Logiciel{
   display: inline-block;
@@ -42,6 +49,8 @@
 .Languages{
   display:inline-block;
   width: 100px;
+  text-align: justify;
+  margin-bottom: 36px;
 }
 div > i{
   padding-left: 10px;
@@ -51,6 +60,12 @@ body{
 }
 .Prenom{
   color: black;
+}
+h1{
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 0px;
+  padding-top: 30px;
 }
 .Surname{
   color: #77b5fe;
@@ -67,10 +82,16 @@ h3{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 0px;
 }
 .corps{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 50px;
+  color: black;
+
+}
+.doc1{
+  color: white;
+  font-size: bold;
+}
+.post{
+  padding-bottom: : 30px;
 }

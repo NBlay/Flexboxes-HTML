@@ -1,0 +1,99 @@
+.Conteneur1{
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: arial, sans-serif;
+  height: 50px;
+  border: 2px solid white;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Conteneur2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  font-family: arial, sans-serif;
+}
+.Conteneur3{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  border: 2px solid white;
+  background-color: #f2f2f2;
+  font-family: arial, sans-serif;
+  align-items: center;
+}
+.Conteneur4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50px;
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  font-family: arial, sans-serif;
+}
+#Images{
+  margin-left: 30px;
+  order: +3;
+}
+#Mail{
+  order: +4;
+}
+i{
+  margin-left: 30px;
+  order: +2;
+}
+.Connex{
+  background-color: blue;
+  margin-left: 30px;
+  border-style: ridge;
+  order: +1;
+  border-radius: 10px;
+  font-family: arial, sans-serif;
+}
+img{
+  height: 50px;
+  width: 150px;
+}
+input{
+  width: 350px;
+  border-radius: 10px;
+}
+#Srch{
+  background-color: grey;
+  border-radius: 10px;
+}
+#Luck{
+  background-color: grey;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+.BoutonsSrc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 25px;
+}
+.Gauche{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-around;
+}
+.Droite{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: flex-end;
+}
+.Gauche>div{
+  margin-right: 30px;
+}
+.Droite>div{
+  margin-left: 30px;
+}

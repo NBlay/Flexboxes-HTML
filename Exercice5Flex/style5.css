@@ -39,8 +39,5 @@ p{
   width: 350px;
 }
 .Head{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   width: 410px;
 }
